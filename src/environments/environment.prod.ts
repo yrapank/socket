@@ -1,3 +1,5 @@
 export const environment = {
-  production: true
+  production: true,
+  socketUrl: 'http://pusher.cpl.by',
+  socketPort: ':6020',
 };

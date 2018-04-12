@@ -4,5 +4,10 @@
 // The list of which env maps to which file can be found in `.angular-cli.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  socketUrl: 'http://pusher.cpl.by',
+  socketPort: ':6020',
 };
+
+// socketUrl: 'http://apiazbit.stage.farm',
+// socketPort: ':6001',
